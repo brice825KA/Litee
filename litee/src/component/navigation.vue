@@ -8,7 +8,7 @@
                 <li class=""><router-link to="/particular">Particuliers</router-link></li>
                 <li class=""><router-link to="/companies">Entreprises</router-link></li>
                 <li class=""><router-link to="/prices">Tarifs</router-link></li>
-                <button class="bg-white border border-red-500 border-3 text-red-500 font-work font-sans text-[18px] font-weight-500 p-2 pl-6 pr-6 rounded-full ml-10"><router-link to="/login">Connexion</router-link></button>
+                <button class="bg-white border border-red-500 border-2 text-red-500 font-work font-sans text-[18px] font-weight-500 p-2 pl-6 pr-6 rounded-full ml-10"><router-link to="/login">Connexion</router-link></button>
             </ul>
         </div>
     </nav>
