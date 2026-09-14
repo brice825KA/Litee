@@ -8,7 +8,7 @@
                 <input class="pr-30 pt-2 pb-2 border-b-[1px] border-[#D8D8D8]" type="text" placeholder="Email"></input>
             </div>
             <div class="">
-                <button class="bg-[#FA4A4D] w-[172px] h-[55px] l-[1098px] top-[415px] rounded-[27.5px] font-family-['Work Sans'] font-weight-600 text-[16px] text-[#FFFFFF]" type="submit">S'inscrire</button>
+                <button class="cursor-pointer bg-[#FA4A4D] w-[172px] h-[55px] l-[1098px] top-[415px] rounded-[27.5px] font-family-['Work Sans'] font-weight-600 text-[16px] text-[#FFFFFF]" type="submit">S'inscrire</button>
             </div>
         </div>
     </div>
