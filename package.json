@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "surge": "^0.44.1"
+  }
+}
