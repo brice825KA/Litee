@@ -36,31 +36,113 @@
     <!-- Simple Sentences -->
     <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 border-b-[1px] border-[#F2F5F7] py-10 border-b-[1px] border-[#F2F5F7]">
         <p class="font-family-[Work Sans] font-weight-700 text-[36px] font-bold line-height-100% text-[#3E3D53] text-center">
-            En plus des fonctionnalités du<br>
-            compte particulier...
+            Comment ca marche
         </p>
     </div>
     <!-- trio cards -->
     <div class="flex justify-center items-center gap-40">
         <div id="card1" class="justify-center items-center py-5">
-            <div class="flex items-center justify-center py-11"><img src="../image/meeting.png" alt=""></div>
+            <div class="flex items-center justify-center py-8"><img src="../image/Group 2111.png" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Compte Entreprise</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Creer un compte entreprise<br>et inviter les membres de<br>votre equipe</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Creer votre compte</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Remplissez le formulaire<br>avec vos informations<br>de base pour<br>commencer. Votre<br>compte Litee est pret<br>en quelques minutes.</p></div>
             </div>
         </div>
         <div id="card1" class="justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img src="../image/Group 2122.png" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Carte plafonnée</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Decidez qui peut depenser<br>combien et qui doit valider<br>quelles demandes d'achat.</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Generez votre carte</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>En un clic, generez une carte<br>virtuelle acceptee partout<br>dans le monde. Nous vous<br>delivrons les cartes physiques<br>au besoin dans les 48h.</p></div>
             </div>
         </div>
         <div id="card1" class="justify-center items-center py-5">
-            <div class="flex items-center justify-center py-11"><img src="../image/tax.png" alt=""></div>
+            <div class="flex items-center justify-center py-5"><img src="../image/Group 2133.png" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Suivi centralisé</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Visualisez en temps reel<br>l'ensemble des dépenses de<br>votre entreprise depuis le<br>tableau de bord Litee</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Alimenter votre carte</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Choissisez le moyen de<br>rechargement qui vous<br>convient et recharger votre<br>carte pour commencer par<br>effectuer des paiements</p></div>
+            </div>
+        </div>
+    </div>
+    <!-- Foot -->
+     <div class="flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
+        <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px] mr-25">
+            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/Group 21correct1.png" alt="dash">
+        </div>
+        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-50">
+            <div class="">
+                <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-weight-700 text-[25px] line-height-100% text-[#3E3D53]">
+                        Rechargement par mobile<br>
+                        money et compte bancaire<br>
+                    </p>
+                </div>
+                <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-weight-400 text-[18px] line-height-100% text-[#3E3D53]">
+                        Nous vous offrons la possibilites d'utiliser<br>
+                        votre compte mobile money disponibles<br>
+                        dans votre pays ou encore votre compte<br>
+                        bancaire.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-5 mt-10">
+                <div class="w-[54px] h-[0px] t-[2645px] l-[758px] border-[2px] bg-[#FA4A4D] mt-4"></div>
+                <div class="">
+                    <p class="font-family-[Work Sans] font-[500] text-[18px] leading-[152%] text-[#3E3D53]">Voir les banques et GSM couverts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+         <div class="flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15">
+        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-5">
+            <div class="">
+                <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-weight-700 text-[25px] line-height-100% text-[#3E3D53]">
+                        Aperçu des dépenses en<br>temps réel<br>
+                    </p>
+                </div>
+                <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-weight-400 text-[18px] line-height-100% text-[#3E3D53]">
+                        Nous gardons une traçabilité de vos<br>
+                        transactions et vous savez où va votre argent.<br>
+                        Vous recevez des notifications en temps réel<br>
+                        des transactions opérées sur votre carte.<br>
+                        Si vous ne reconnaissez pas une transaction,<br>
+                        signalez-le aussitôt.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px]">
+            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/Group 21action2.png" alt="dash">
+        </div>
+    </div>
+     <div class="flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15 pl-60">
+        <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px] items-center justify-center">
+            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/Group 12action3.png" alt="dash">
+        </div>
+        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 items-center justify-center">
+            <div class="">
+                <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-weight-700 text-[25px] line-height-100% text-[#3E3D53]">
+                        Transfert d'argent de<br>
+                        carte a carte<br>
+                    </p>
+                </div>
+                <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-weight-400 text-[18px] line-height-100% text-[#3E3D53]">
+                        Plue aucune frontiere pour envoyer de<br>
+                        l'argent et a moindre cout. Recharger votre<br>
+                        cartes et faites balader les fonds partout dans<br>
+                        le monde.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-5 mt-10">
+                <div class="w-[54px] h-[0px] t-[2645px] l-[758px] border-[2px] bg-[#FA4A4D] mt-4"></div>
+                <div class="">
+                    <p class="font-family-[Work Sans] font-[500] text-[18px] leading-[152%] text-[#3E3D53]">Voir les tarifs</p>
+                </div>
             </div>
         </div>
     </div>
@@ -69,7 +151,6 @@
 <style scoped>
 button {
     cursor: pointer;
-
 }
 
 input:focus {
