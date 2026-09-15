@@ -9,4 +9,8 @@ import Myfooter from './component/footer.vue'
     <Myfooter />
 </template>
 
-<style scoped></style>
+<style scoped>
+* {
+    overflow-x: hidden;
+}
+</style>
