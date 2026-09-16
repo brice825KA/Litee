@@ -7,10 +7,6 @@ import prices from '../views/prices.vue'
 const routes = [
   {
     path: '/',
-    component: Home
-  },
-  {
-    path: '/particular',
     component: particular
   },
   {
