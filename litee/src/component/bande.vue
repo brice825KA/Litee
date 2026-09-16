@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 const items = [
     'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2013.png',
     'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2016.png',
