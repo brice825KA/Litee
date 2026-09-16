@@ -26,7 +26,7 @@ const items = [
         :ui="{ item: 'basis-1/8' }"
         class=""
         >
-        <img :src="item" width="150" height="90" top="734" left="148" class="" loading="lazy">
+        <img :src="item" width="145" height="90" top="734" left="148" class="" loading="lazy">
         </UCarousel>
   </div>
 </template>
