@@ -9,22 +9,24 @@ const items = [
     'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2013.png',
     'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2016.png',
     'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2017.png',
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2018.png',
+    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2018.png',    
+    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2019.png',
+
 ]
 </script>
 
 <template>
-    <div class="bg-[#F2F5F7] flex items-center justify-center">
+    <div class="bg-[#F2F5F7] pt-15 flex items-center justify-center">
         <UCarousel
         v-slot="{ item }"
         loop
         dots
         auto-scroll
         :items="items"
-        :ui="{ item: 'basis-1/6' }"
+        :ui="{ item: 'basis-1/8' }"
         class=""
         >
-        <img :src="item" width="176" height="90" top="734" left="148" class="" loading="lazy">
+        <img :src="item" width="150" height="90" top="734" left="148" class="" loading="lazy">
         </UCarousel>
   </div>
 </template>
