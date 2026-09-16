@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <div id="column" class="bg-[#3E3D53]">
+    <div id="column" class="bg-[#3E3D53] pl-40 pr-30">
         <div class="flex pl-30 gap-x-80 py-10">
             <div id="firstcol" class="">
                 <div class="pb-2"><span><p>2018, LITEE</p></span></div>

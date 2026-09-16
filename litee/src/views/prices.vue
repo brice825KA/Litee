@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="space-y-5 items-center justify-center bg-[#F7FAFB00] pl-30 pr-15">
+    <div class="space-y-5 items-center justify-center bg-[#F7FAFB00] pl-70 pr-15">
         <div class="">
             <p class="font-family-[Work Sans] font-[600] text-[36px] leading-[100%] text-[#000000]">Nos tarifs</p>
         </div>

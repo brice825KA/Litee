@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <div class="bg-[#FFFFFF] flex w-[1500px] h-[134px] t-[378px] pl-30 pr-30 pt-10 pb-20 mb-5 gap-85">
+    <div class="bg-[#FFFFFF] flex w-[1500px] h-[134px] t-[378px] pl-30 pr-5 pl-70 pt-10 pb-20 mb-5 gap-85">
         <div class="font-family-['Work Sans'] font-weight-400 text-[30px] text-[#3E3D53]"><p>Toutes les nouveautés<br>dans votre boîte mail</p></div>
         <div class="flex pt-10 gap-10">
             <div class="">

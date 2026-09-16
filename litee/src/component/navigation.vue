@@ -1,9 +1,10 @@
 <script setup></script>
 
 <template>
+    <div class="pl-50 pr-50">
     <nav id="navbar" class="font-calibri">
-        <div id="navdiv" class="flex items-center p-4 pr-30 pl-30 justify-between gap-5">
-            <div id="logo" class=""><img src="../image/Logo_litee.png" alt="logo"></div>
+        <div id="navdiv" class="flex items-center justify-between p-4">
+            <div id="logo" class="mr-100"><img src="../image/Logo_litee.png" alt="logo"></div>
             <ul>
                 <li class=""><router-link to="/">Particuliers</router-link></li>
                 <li class=""><router-link to="/companies">Entreprises</router-link></li>
@@ -12,6 +13,7 @@
             </ul>
         </div>
     </nav>
+</div>
 </template>
 
 <style scoped>
