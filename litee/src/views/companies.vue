@@ -4,20 +4,20 @@ import bande from '../component/bande.vue'
 </script>
 
 <template>
-    <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15">
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45">
+    <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 mb-15 pt-10 gap-10">
+        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-20">
             <div class="">
-                <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-700 text-[25px] line-height-100% text-[#3E3D53]">
-                        Cartes de paiemnts intelligentes<br>
+                <div class="w-[675px] h-[143px] t-[211px] l-[190px] mb-15">
+                    <p class="font-family-[Work Sans] font-[700] text-[40px] line-height-100% text-[#3E3D53]">
+                        Cartes de paiements intelligentes<br>
                         pour vos transactions partout<br>
                         dans le monde
                     </p>
                 </div>
-                <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-400 text-[18px] line-height-100% text-[#3E3D53]">
+                <div class="w-[610px] h-[85px] t-[382px] l-[190px] mb-10">
+                    <p class="font-family-[Work Sans] font-[300] text-[24px] line-height-100% text-[#3E3D53]">
                         Plus de flexibilite et transparance pour vous<br>
-                        permettre de reprndre le controle de vos depenses
+                        permettre de reprendre le controle de vos depenses
                     </p>
                 </div>
             </div>
@@ -71,13 +71,13 @@ import bande from '../component/bande.vue'
         <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-50">
             <div class="">
                 <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-700 text-[25px] line-height-100% text-[#3E3D53]">
+                    <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
                         Rechargement par mobile<br>
                         money et compte bancaire<br>
                     </p>
                 </div>
                 <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-400 text-[18px] line-height-100% text-[#3E3D53]">
+                    <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#3E3D53]">
                         Nous vous offrons la possibilites d'utiliser<br>
                         votre compte mobile money disponibles<br>
                         dans votre pays ou encore votre compte<br>
@@ -85,7 +85,7 @@ import bande from '../component/bande.vue'
                     </p>
                 </div>
             </div>
-            <div class="flex gap-5 mt-10">
+            <div class="flex gap-5 mt-20">
                 <div class="w-[54px] h-[0px] t-[2645px] l-[758px] border-[2px] bg-[#FA4A4D] mt-4"></div>
                 <div class="">
                     <p class="font-family-[Work Sans] font-[500] text-[18px] leading-[152%] text-[#3E3D53]">Voir les banques et GSM couverts</p>
@@ -97,12 +97,12 @@ import bande from '../component/bande.vue'
         <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-5">
             <div class="">
                 <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-700 text-[25px] line-height-100% text-[#3E3D53]">
+                    <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
                         Aperçu des dépenses en<br>temps réel<br>
                     </p>
                 </div>
                 <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-400 text-[18px] line-height-100% text-[#3E3D53]">
+                    <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[100%] text-[#3E3D53]">
                         Nous gardons une traçabilité de vos<br>
                         transactions et vous savez où va votre argent.<br>
                         Vous recevez des notifications en temps réel<br>
@@ -124,7 +124,7 @@ import bande from '../component/bande.vue'
         <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 items-center justify-center">
             <div class="">
                 <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-700 text-[25px] line-height-100% text-[#3E3D53]">
+                    <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
                         Transfert d'argent de<br>
                         carte a carte<br>
                     </p>

@@ -4,17 +4,17 @@ import bande from '../component/bande.vue'
 
 <template>
     <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15">
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45">
+        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-20">
             <div class="">
-                <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-700 text-[25px] line-height-100% text-[#3E3D53]">
+                <div class="w-[675px] h-[143px] t-[211px] l-[190px] mb-15">
+                    <p class="font-family-[Work Sans] font-[700] font-bold text-[40px] line-height-100% text-[#3E3D53]">
                         Organiser les paiements de<br>
                         votre equipe au meme<br>
                         endroit
                     </p>
                 </div>
-                <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-400 text-[18px] line-height-100% text-[#3E3D53]">
+                <div class="w-[610px] h-[85px] t-[382px] l-[190px] mb-10">
+                    <p class="font-family-[Work Sans] font-[300] text-[24px] line-height-100% text-[#3E3D53]">
                         Donnez plus d'autonomie a vos collaborateurs<br>
                         et Ameliorez votre productivite
                     </p>
@@ -25,7 +25,7 @@ import bande from '../component/bande.vue'
                 <div><button class="w-[172px] h-[55px] t-[542px] l-[475px] rounded-[27.5px] bg-[#FA4A4D] font-family-[Work Sans] font-weight-600 text-[18px] line-height-100% text-[#FFFFFF]">Inscription</button></div>
             </div>
         </div>
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px]">
+        <div class="w-[596px] h-[572px] t-[119px] l-[821px] mt-15">
             <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/Group 21.png" alt="dash">
         </div>
     </div>
