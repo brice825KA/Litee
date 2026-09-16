@@ -11,7 +11,6 @@ const carouselItems = [1, 2, 3]
     <UCarousel
       v-slot="{ item }"
       loop 
-      arrows 
       dots 
       :autoplay="{ delay: 2000 }" 
       :items="carouselItems" 

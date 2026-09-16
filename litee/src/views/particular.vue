@@ -1,5 +1,5 @@
 <script setup>
-
+import bande from '../component/bande.vue'
 </script>
 
 <template>
@@ -30,9 +30,7 @@
         </div>
     </div>
     <!-- Bande -->
-    <div class="bg-[#F2F5F7] h-[127px] t-[712px] items-center justify-center flex">
-        <img class="h-[72px] t-[737px] l-[165px]" src="../image/Group 20.png" alt="bande">
-    </div>
+     <bande/>
     <!-- Simple Sentences -->
     <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 border-b-[1px] border-[#F2F5F7] py-10 border-b-[1px] border-[#F2F5F7]">
         <p class="font-family-[Work Sans] font-weight-700 text-[36px] font-bold line-height-100% text-[#3E3D53] text-center">
