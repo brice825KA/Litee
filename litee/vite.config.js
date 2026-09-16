@@ -18,12 +18,21 @@ export default defineConfig({
           primary: 'green',
           neutral: 'slate'
         }
-      }
+      },
+      pageCard: {
+        slots: {
+          root: 'rounded-xl',
+        }
+       }
     })
   ],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
+      'vue-router': fileURLToPath(new URL('./node_modules/vue-router/dist/vue-router.mjs', import.meta.url))
     },
   },
+  optimizeDeps: {
+    include: ['vue', 'vue-router']
+  }
 })

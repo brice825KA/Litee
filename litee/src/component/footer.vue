@@ -18,7 +18,7 @@ const carouselItems = [1, 2, 3]
       :ui="{ item: 'basis-full' }"
       class="w-full"
       >
-      <footerfirst class="w-full" /> 
+      <footerfirst /> 
     </UCarousel> 
   </div>
   <footersecond /> 

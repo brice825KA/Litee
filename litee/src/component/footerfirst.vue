@@ -1,6 +1,6 @@
 <script setup></script>
 
-<template>
+<template class="bg-[#F2F5F7]">
     <div class="bg-[#F2F5F7] py-5">
         <div class="text-center">
         <div class="items-center justify-center flex pb-5"><img src="../image/Ellipse 3p1.png" alt="ellipse"></div>

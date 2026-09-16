@@ -1,5 +1,5 @@
 <script setup>
-
+import card from '../component/carfeatures.vue'
 </script>
 
 <template>
@@ -63,6 +63,7 @@
             </div>
         </div>
     </div>
+    <card />
     <!-- Foot -->
      <div class="flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
         <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px] mr-25">
@@ -149,6 +150,7 @@
 </template>
 
 <style scoped>
+
 button {
     cursor: pointer;
 }
