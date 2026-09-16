@@ -1,16 +1,16 @@
 <script setup>
 const items = [
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2013.png',
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2016.png',
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2017.png',
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2018.png',
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2019.png',
+    '../image/Group 13.png',
+    '../image/Group 16.png',
+    '../image/Group 17.png',
+    '../image/Group 18.png',
+    '../image/Group 19.png',
 
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2013.png',
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2016.png',
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2017.png',
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2018.png',    
-    'https://github.com/brice825KA/Litee/blob/main/litee/src/image/Group%2019.png',
+    '../image/Group 13.png',
+    '../image/Group 16.png',
+    '../image/Group 17.png',
+    '../image/Group 18.png',
+    '../image/Group 19.png',
 
 ]
 </script>
@@ -33,3 +33,4 @@ const items = [
 
 <style scoped>
 </style>
+
