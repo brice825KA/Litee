@@ -3,7 +3,7 @@
 <template>
     <nav id="navbar" class="font-calibri">
         <div id="navdiv" class="flex items-center p-4 pr-30 pl-30 justify-between gap-5">
-            <div id="logo" class=""><router-link to="/"><img src="../image/Logo_litee.png" alt="logo"></router-link></div>
+            <div id="logo" class=""><img src="../image/Logo_litee.png" alt="logo"></div>
             <ul>
                 <li class=""><router-link to="/particular">Particuliers</router-link></li>
                 <li class=""><router-link to="/companies">Entreprises</router-link></li>
