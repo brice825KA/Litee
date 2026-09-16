@@ -30,7 +30,7 @@ import bande from '../component/bande.vue'
             <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/dash_litee.png" alt="dash">
         </div>
     </div>
-    <!-- Bande -->
+    <!--Ban-->
      <bande />
     <!-- Simple Sentences -->
     <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 border-b-[1px] border-[#F2F5F7] py-10 border-b-[1px] border-[#F2F5F7]">

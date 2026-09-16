@@ -6,7 +6,7 @@ const items = [
     '../image/Group 18.png',
     '../image/Group 19.png',
 
-    '../image/Group 13.png',
+    'https://picsum.photos/468/468?random=1',
     '../image/Group 16.png',
     '../image/Group 17.png',
     '../image/Group 18.png',
