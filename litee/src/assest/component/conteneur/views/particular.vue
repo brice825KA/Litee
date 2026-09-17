@@ -1,5 +1,5 @@
 <script setup>
-import bande from '../component/bande.vue'
+import bande from '../../bande.vue'
 </script>
 
 <template>
