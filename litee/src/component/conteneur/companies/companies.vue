@@ -1,6 +1,13 @@
 <script setup>
 import card from '../../helper/carfeatures.vue'
 import bande from '../../helper/bande.vue'
+import icon_one from '../../../assest/image/img_follow_central.webp'
+import icon_two from '../../../assest/image/img_card.webp'
+import icon_three from '../../../assest/image/img_wallet.webp'
+import dash_litee from '../../../assest/image/img_dash_litee_companies_1.webp'
+import companies_2 from '../../../assest/image/img_telephone_companies_3.webp'
+import companies_3 from '../../../assest/image/img_cart_lat_transactions_companies_4.webp'
+import companies_4 from '../../../assest/image/img_transfer_card_companies_5.webp'
 </script>
 
 <template>
@@ -27,7 +34,7 @@ import bande from '../../helper/bande.vue'
             </div>
         </div>
         <div class="w-[596px] h-[572px] t-[119px] l-[821px]">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/dash_litee.png" alt="dash">
+            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="dash_litee" alt="dash">
         </div>
     </div>
     <!--Ban-->
@@ -41,21 +48,21 @@ import bande from '../../helper/bande.vue'
     <!-- trio cards -->
     <div class="flex justify-center items-center gap-40">
         <div id="card1" class="justify-center items-center py-5">
-            <div class="flex items-center justify-center py-8"><img src="../image/Group 2111.png" alt=""></div>
+            <div class="flex items-center justify-center py-8"><img :src="icon_one" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Creer votre compte</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Remplissez le formulaire<br>avec vos informations<br>de base pour<br>commencer. Votre<br>compte Litee est pret<br>en quelques minutes.</p></div>
             </div>
         </div>
         <div id="card1" class="justify-center items-center py-5">
-            <div class="flex items-center justify-center py-5"><img src="../image/Group 2122.png" alt=""></div>
+            <div class="flex items-center justify-center py-5"><img :src="icon_two" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Generez votre carte</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>En un clic, generez une carte<br>virtuelle acceptee partout<br>dans le monde. Nous vous<br>delivrons les cartes physiques<br>au besoin dans les 48h.</p></div>
             </div>
         </div>
         <div id="card1" class="justify-center items-center py-5">
-            <div class="flex items-center justify-center py-5"><img src="../image/Group 2133.png" alt=""></div>
+            <div class="flex items-center justify-center py-5"><img :src="icon_three" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Alimenter votre carte</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Choissisez le moyen de<br>rechargement qui vous<br>convient et recharger votre<br>carte pour commencer par<br>effectuer des paiements</p></div>
@@ -66,7 +73,7 @@ import bande from '../../helper/bande.vue'
     <!-- Foot -->
      <div class="flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
         <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px] mr-25">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/Group 21correct1.png" alt="dash">
+            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="companies_2" alt="dash">
         </div>
         <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-50">
             <div class="">
@@ -114,12 +121,12 @@ import bande from '../../helper/bande.vue'
             </div>
         </div>
         <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px]">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/Group 21action2.png" alt="dash">
+            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="companies_4" alt="dash">
         </div>
     </div>
      <div class="flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15 pl-60">
         <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px] items-center justify-center">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/Group 12action3.png" alt="dash">
+            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="companies_3" alt="dash">
         </div>
         <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 items-center justify-center">
             <div class="">

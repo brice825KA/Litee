@@ -1,4 +1,5 @@
 <script setup>
+import companies_1 from '../../assest/image/img_card_companie_2.webp'
 </script>
 
 <template>
@@ -28,7 +29,7 @@
       <div class="flex justify-center justify-self-center z-10 py-6 md:py-0 w-full max-w-[340px]">
         <div class="w-full transition-transform duration-300 hover:scale-105">
           <img 
-            src="../image/Group 7.1litee-cart-sample.png" 
+            :src="companies_1" 
             alt="Carte bancaire Litee" 
             class="w-full h-auto rounded-2xl shadow-2xl shadow-slate-900/20 object-contain"
             loading="eager"

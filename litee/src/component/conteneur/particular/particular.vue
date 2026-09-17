@@ -1,5 +1,9 @@
 <script setup>
 import bande from '../../helper/bande.vue'
+import first_pic from '../../../assest/image/img_first_particular_page.webp'
+import icon_one from '../../../assest/image/img_entreprise.webp'
+import icon_two from '../../../assest/image/img_card.webp'
+import icon_three from '../../../assest/image/ima_tax.webp'
 </script>
 
 <template>
@@ -26,7 +30,7 @@ import bande from '../../helper/bande.vue'
             </div>
         </div>
         <div class="w-[596px] h-[572px] t-[119px] l-[821px] mt-15">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" src="../image/Group 21.png" alt="dash">
+            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="first_pic" alt="dash">
         </div>
     </div>
     <!-- Bande -->
@@ -39,23 +43,23 @@ import bande from '../../helper/bande.vue'
         </p>
     </div>
     <!-- trio cards -->
-    <div class="flex justify-center items-center gap-40">
+    <div class="flex justify-center items-center gap-40 py-10">
         <div id="card1" class="justify-center items-center py-5">
-            <div class="flex items-center justify-center py-11"><img src="../image/meeting.png" alt=""></div>
+            <div class="flex items-center justify-center py-5"><img :src="icon_one" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Compte Entreprise</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Creer un compte entreprise<br>et inviter les membres de<br>votre equipe</p></div>
             </div>
         </div>
         <div id="card1" class="justify-center items-center py-5">
-            <div class="flex items-center justify-center py-5"><img src="../image/Group 2122.png" alt=""></div>
+            <div class="flex items-center justify-center py-5"><img :src="icon_two" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Carte plafonnée</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Decidez qui peut depenser<br>combien et qui doit valider<br>quelles demandes d'achat.</p></div>
             </div>
         </div>
         <div id="card1" class="justify-center items-center py-5">
-            <div class="flex items-center justify-center py-11"><img src="../image/tax.png" alt=""></div>
+            <div class="flex items-center justify-center py-5"><img :src="icon_three" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Suivi centralisé</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Visualisez en temps reel<br>l'ensemble des dépenses de<br>votre entreprise depuis le<br>tableau de bord Litee</p></div>
@@ -65,6 +69,7 @@ import bande from '../../helper/bande.vue'
 </template>
 
 <style scoped>
+
 button {
     cursor: pointer;
 

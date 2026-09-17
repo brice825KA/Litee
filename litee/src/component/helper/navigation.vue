@@ -1,5 +1,5 @@
 <script setup>
-import logo from '../../assets/image/icon/ic_logo_litee_with_litee.svg'
+import logo from '../../assest/image/icon/ic_logo_litee_with_litee.svg'
 </script>
 
 <template>

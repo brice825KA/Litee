@@ -17,7 +17,7 @@ const carouselItems = [1, 2, 3]
       :ui="{
         item: 'basis-full',
         dots: 'absolute inset-x-0 bottom-2 flex flex-wrap items-center justify-center gap-3',
-        dot: 'bg-red-500 data-[state=active]:bg-gray-900'
+        dot: 'bg-[#C4C4C4] data-[state=active]:bg-red-500'
       }"
       class="w-full bg-[#F2F5F7]"
       >

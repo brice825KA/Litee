@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import facebook from '../../assest/image/img_f.webp'
+import linkedin from '../../assest/image/img_in.webp'
+</script>
 
 <template>
     <div id="column" class="bg-[#3E3D53] pl-40 pr-30">
@@ -15,8 +18,8 @@
                 <div class="pb-2"><span><p>Nous contacter</p></span></div>
                 <p>contact@getlitee.com<br><div class="text-[#FFFFFF80] pt-1 text-[20px]">00229 66 43 47 66</div></p>
                 <div class="flex space-x-4 mt-2">
-                    <img src="../image/Group 15f.png">
-                    <img src="../image/Group 16in.png">
+                    <img :src="facebook">
+                    <img :src="linkedin">
                 </div>
             </div>
         </div>
