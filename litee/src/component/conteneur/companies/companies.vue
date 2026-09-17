@@ -93,7 +93,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                 </div>
             </div>
             <div class="flex gap-5 mt-20">
-                <div class="w-[54px] h-[0px] t-[2645px] l-[758px] border-[2px] bg-[#FA4A4D] mt-4"></div>
+                <div class="w-[54px] h-[5px] t-[2645px] l-[758px] bg-[#FA4A4D] mt-3"></div>
                 <div class="">
                     <p class="font-family-[Work Sans] font-[500] text-[18px] leading-[152%] text-[#3E3D53]">Voir les banques et GSM couverts</p>
                 </div>
@@ -120,13 +120,13 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                 </div>
             </div>
         </div>
-        <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px]">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="companies_4" alt="dash">
+        <div class="">
+            <img class="w-[400px] h-[470px] t-[119px] l-[821px]" :src="companies_4" alt="dash">
         </div>
     </div>
      <div class="flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15 pl-60">
-        <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px] items-center justify-center">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="companies_3" alt="dash">
+        <div class=" items-center justify-center">
+            <img class="" :src="companies_3" alt="dash">
         </div>
         <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 items-center justify-center">
             <div class="">
@@ -146,7 +146,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                 </div>
             </div>
             <div class="flex gap-5 mt-10">
-                <div class="w-[54px] h-[0px] t-[2645px] l-[758px] border-[2px] bg-[#FA4A4D] mt-4"></div>
+                <div class="w-[54px] h-[5px] t-[2645px] l-[758px] bg-[#FA4A4D] mt-3"></div>
                 <div class="">
                     <p class="font-family-[Work Sans] font-[500] text-[18px] leading-[152%] text-[#3E3D53]">Voir les tarifs</p>
                 </div>

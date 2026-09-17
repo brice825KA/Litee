@@ -1,17 +1,22 @@
 <script setup>
 const items = [
-    '../../assets/image/ima_tax.webp',
-    '../../assets/image/icon/ic_bande_2.svg',
-    '../../assets/image/icon/ic_bande_3.svg',
-    '../../assets/image/icon/ic_bande_4.svg',
-    '../../assets/image/icon/ic_bande_5.svg',
+  new URL('../../assets/image/ima_bande_1.webp', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_2.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_3.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_4.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_5.svg', import.meta.url).href,
 
-    'https://picsum.photos/468/468?random=1',
-    '../image/Group 16.png',
-    '../image/Group 17.png',
-    '../image/Group 18.png',
-    '../image/Group 19.png',
+  new URL('../../assets/image/ima_bande_1.webp', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_2.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_3.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_4.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_5.svg', import.meta.url).href,
 
+  new URL('../../assets/image/ima_bande_1.webp', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_2.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_3.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_4.svg', import.meta.url).href,
+  new URL('../../assets/image/icon/ic_bande_5.svg', import.meta.url).href,
 ]
 </script>
 
@@ -23,10 +28,10 @@ const items = [
         dots
         :auto-scroll="{speed: 0.5, stopOnMouseEnter: false, stopOnInteraction: false }"
         :items="items"
-        :ui="{ item: 'basis-1/8' }"
+        :ui="{ item: 'basis-1/10' }"
         class=""
         >
-        <img :src="item" width="145" height="45" top="734" left="148" class="" loading="eager">
+        <img :src="item" width="145" height="45" class="" loading="lazy">
         </UCarousel>
   </div>
 </template>

@@ -1,4 +1,6 @@
 <script setup>
+import man from '../../../assest/image/img_man_tarifs.webp'
+import factory from '../../../assest/image/img_factory_tarifs.webp'
 </script>
 
 <template>
@@ -18,12 +20,12 @@
         <div class="">
             <div class="font-family-[Work Sans] font-[100] text-[36px] leading-[235%] text-[#000000]"><p>Particuliers</p></div>
             <div class="w-[514px] h-[813px] t-[541px] l-[195px] shadow-md pb-10">
-                <div class="flex justify-center items-center "><img src="../image/man (1)man.png"></div>
+                <div class="flex justify-center items-center "><img :src="man"></div>
                 <p class="font-family-[Work Sans] font-[100] text-[144px] leading-[235%] text-[#000000] text-center">03%</p>
                 <div class="justify-center items-center ">
                     <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#000000] text-center">
                         au rechargement de votre compte<br>
-                        <div class="w-[97px] h-[0px] t-[1029px] l-[395px] border-[3px] bg-[#FA4A4D1A] ml-50 mt-5 justify-center items-center"></div><br>
+                        <div class="w-[97px] h-[3px] t-[1029px] l-[395px] bg-[#FA4A4D1A] ml-50 mt-5 justify-center items-center"></div><br>
                         <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#000000] text-center">$03 par catrte additionnlle generee</p><br><br>
                         <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#000000] text-center">0.5% de frais d transfert</p><br><br>
                     </p>
@@ -34,12 +36,12 @@
         <div class="">
             <div class="font-family-[Work Sans] font-[100] text-[36px] leading-[235%] text-[#000000]"><p>Entreprises</p></div>
             <div class="w-[514px] h-[813px] t-[541px] l-[195px] shadow-md pb-10">
-                <div class="flex justify-center items-center "><img src="../image/factoryentreprise.png"></div>
+                <div class="flex justify-center items-center "><img :src="factory"></div>
                 <p class="font-family-[Work Sans] font-[100] text-[144px] leading-[235%] text-[#000000] text-center">03%</p>
                 <div class="">
                     <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#000000] text-center">
                         au rechargement de votre compte<br>
-                        <div class="w-[97px] h-[0px] t-[1029px] l-[395px] border-[3px] bg-red-100 ml-50 mt-5 justify-center items-center"></div><br>
+                        <div class="w-[97px] h-[3px] t-[1029px] l-[395px]  bg-[#FA4A4D1A] ml-50 mt-5 justify-center items-center"></div><br>
                         <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#000000] text-center">$03 par catrte additionnlle generee</p><br><br>
                         <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#000000] text-center">$02 / mois par membre d'equipe</p><br><br>
                     </p>

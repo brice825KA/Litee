@@ -45,7 +45,7 @@ span p {
 
 p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 100%;
     font-family: 'Work Sans', sans-serif;
     color: #FFFFFF80;
