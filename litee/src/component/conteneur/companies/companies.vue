@@ -137,7 +137,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                     </p>
                 </div>
                 <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-weight-400 text-[18px] line-height-100% text-[#3E3D53]">
+                    <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[100%] text-[#3E3D53]">
                         Plue aucune frontiere pour envoyer de<br>
                         l'argent et a moindre cout. Recharger votre<br>
                         cartes et faites balader les fonds partout dans<br>
