@@ -1,4 +1,5 @@
 <script setup>
+import Myfooter from '../../../component/helper/footer.vue'
 import bande from '../../helper/bande.vue'
 import first_pic from '../../../assest/image/img_first_particular_page.webp'
 import icon_one from '../../../assest/image/img_entreprise.webp'
@@ -66,6 +67,7 @@ import icon_three from '../../../assest/image/ima_tax.webp'
             </div>
         </div>
     </div>
+    <Myfooter/>
 </template>
 
 <style scoped>

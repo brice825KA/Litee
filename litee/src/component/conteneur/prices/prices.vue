@@ -1,4 +1,5 @@
 <script setup>
+import Myfooter from '../../../component/helper/footer.vue'
 import man from '../../../assest/image/img_man_tarifs.webp'
 import factory from '../../../assest/image/img_factory_tarifs.webp'
 </script>
@@ -50,6 +51,7 @@ import factory from '../../../assest/image/img_factory_tarifs.webp'
             </div>
         </div>
     </div>
+    <Myfooter/>
 </template>
 
 <style scoped>

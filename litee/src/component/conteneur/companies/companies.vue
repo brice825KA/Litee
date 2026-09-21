@@ -1,4 +1,5 @@
 <script setup>
+import Myfooter from '../../../component/helper/footer.vue'
 import card from '../../helper/carfeatures.vue'
 import bande from '../../helper/bande.vue'
 import icon_one from '../../../assest/image/img_follow_central.webp'
@@ -153,6 +154,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
             </div>
         </div>
     </div>
+    <Myfooter/>
 </template>
 
 <style scoped>
