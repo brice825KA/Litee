@@ -44,22 +44,22 @@ import icon_three from '../../../assest/image/ima_tax.webp'
         </p>
     </div>
     <!-- trio cards -->
-    <div class="flex justify-center items-center gap-40 py-10">
-        <div id="card1" class="justify-center items-center py-5">
+    <div class="feature-showcase flex justify-center items-center gap-40 py-10">
+        <div id="card1" class="feature-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_one" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Compte Entreprise</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Creer un compte entreprise<br>et inviter les membres de<br>votre equipe</p></div>
             </div>
         </div>
-        <div id="card1" class="justify-center items-center py-5">
+        <div id="card1" class="feature-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_two" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Carte plafonnée</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Decidez qui peut depenser<br>combien et qui doit valider<br>quelles demandes d'achat.</p></div>
             </div>
         </div>
-        <div id="card1" class="justify-center items-center py-5">
+        <div id="card1" class="feature-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_three" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Suivi centralisé</p></div>
@@ -125,9 +125,50 @@ input:focus {
         margin: 0 auto;
     }
 
-    .feature-grid {
-        gap: 1rem;
-        flex-wrap: wrap;
+    .feature-showcase {
+        flex-direction: column;
+        gap: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .feature-card {
+        width: 100%;
+        max-width: 640px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card img {
+        width: min(100%, 180px);
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .feature-card p {
+        font-size: clamp(18px, 2vw, 24px);
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 1024px) {
+    .feature-showcase {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    .feature-card {
+        max-width: 100%;
+    }
+
+    .feature-card img {
+        width: min(100%, 150px);
+    }
+
+    .feature-card p {
+        font-size: clamp(16px, 3.5vw, 20px);
     }
 }
 </style>

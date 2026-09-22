@@ -47,22 +47,22 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
         </p>
     </div>
     <!-- trio cards -->
-    <div class="flex justify-center items-center gap-40">
-        <div id="card1" class="justify-center items-center py-5">
+    <div class="company-steps flex justify-center items-center gap-40">
+        <div id="card1" class="company-step-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-8"><img :src="icon_one" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Creer votre compte</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Remplissez le formulaire<br>avec vos informations<br>de base pour<br>commencer. Votre<br>compte Litee est pret<br>en quelques minutes.</p></div>
             </div>
         </div>
-        <div id="card1" class="justify-center items-center py-5">
+        <div id="card1" class="company-step-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_two" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Generez votre carte</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>En un clic, generez une carte<br>virtuelle acceptee partout<br>dans le monde. Nous vous<br>delivrons les cartes physiques<br>au besoin dans les 48h.</p></div>
             </div>
         </div>
-        <div id="card1" class="justify-center items-center py-5">
+        <div id="card1" class="company-step-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_three" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Alimenter votre carte</p></div>
@@ -212,6 +212,33 @@ input:focus {
         margin: 0 auto;
     }
 
+    .company-steps {
+        flex-direction: column;
+        gap: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .company-step-card {
+        width: 100%;
+        max-width: 640px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company-step-card img {
+        width: min(100%, 180px);
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .company-step-card p {
+        font-size: clamp(18px, 2vw, 24px);
+        line-height: 1.4;
+    }
+
     .feature-pair {
         flex-direction: column !important;
         align-items: center !important;
@@ -257,6 +284,20 @@ input:focus {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .company-step-card img {
+        width: min(100%, 150px);
+    }
+
+    .company-step-card p {
+        font-size: clamp(16px, 3.5vw, 20px);
+    }
+
+    .feature-image-wrap img {
+        width: min(100%, 300px) !important;
     }
 }
 </style>
