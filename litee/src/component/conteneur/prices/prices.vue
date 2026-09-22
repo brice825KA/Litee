@@ -5,7 +5,7 @@ import factory from '../../../assest/image/img_factory_tarifs.webp'
 </script>
 
 <template>
-    <div class="space-y-5 items-center justify-center bg-[#F7FAFB00] pl-70 pr-15">
+    <div class="pricing-header space-y-5 items-center justify-center bg-[#F7FAFB00] pl-70 pr-15">
         <div class="">
             <p class="font-family-[Work Sans] font-[600] text-[36px] leading-[100%] text-[#000000]">Nos tarifs</p>
         </div>
@@ -17,8 +17,8 @@ import factory from '../../../assest/image/img_factory_tarifs.webp'
         <div class="h-[1px] w-[1109px]  bg-[#F2F5F7]"></div>
     </div>
     <!--Middle two part-->
-    <div class="flex justify-center items-center gap-25 py-5">
-        <div class="">
+    <div class="pricing-cards flex justify-center items-center gap-25 py-5">
+        <div class="pricing-card-block">
             <div class="font-family-[Work Sans] font-[100] text-[36px] leading-[235%] text-[#000000]"><p>Particuliers</p></div>
             <div class="w-[514px] h-[813px] t-[541px] l-[195px] shadow-md pb-10">
                 <div class="flex justify-center items-center "><img :src="man"></div>
@@ -34,7 +34,7 @@ import factory from '../../../assest/image/img_factory_tarifs.webp'
                 </div>
             </div>
         </div>
-        <div class="">
+        <div class="pricing-card-block">
             <div class="font-family-[Work Sans] font-[100] text-[36px] leading-[235%] text-[#000000]"><p>Entreprises</p></div>
             <div class="w-[514px] h-[813px] t-[541px] l-[195px] shadow-md pb-10">
                 <div class="flex justify-center items-center "><img :src="factory"></div>
@@ -57,5 +57,34 @@ import factory from '../../../assest/image/img_factory_tarifs.webp'
 <style scoped>
 button {
     cursor: pointer;
+}
+
+@media (max-width: 1410px) {
+    .pricing-header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .pricing-header p {
+        font-size: clamp(24px, 2.2vw, 36px);
+        line-height: 1.2;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .pricing-card-block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card-block > div:last-child {
+        width: min(100%, 514px);
+        height: auto;
+    }
 }
 </style>

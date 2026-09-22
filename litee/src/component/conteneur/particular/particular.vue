@@ -8,29 +8,29 @@ import icon_three from '../../../assest/image/ima_tax.webp'
 </script>
 
 <template>
-    <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15">
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-20">
+    <div class="page-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15">
+        <div class="hero-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-20">
             <div class="">
-                <div class="w-[675px] h-[143px] t-[211px] l-[190px] mb-15">
+                <div class="title-block w-[675px] h-[143px] t-[211px] l-[190px] mb-15">
                     <p class="font-family-[Work Sans] font-[700] font-bold text-[40px] line-height-100% text-[#3E3D53]">
                         Organiser les paiements de<br>
                         votre equipe au meme<br>
                         endroit
                     </p>
                 </div>
-                <div class="w-[610px] h-[85px] t-[382px] l-[190px] mb-10">
+                <div class="subtitle-block w-[610px] h-[85px] t-[382px] l-[190px] mb-10">
                     <p class="font-family-[Work Sans] font-[300] text-[24px] line-height-100% text-[#3E3D53]">
                         Donnez plus d'autonomie a vos collaborateurs<br>
                         et Ameliorez votre productivite
                     </p>
                 </div>
             </div>
-            <div class="flex gap-5">
+            <div class="hero-form flex gap-5">
                 <div><input class="pl-5 w-[275px] h-[55px] t-[542px] l-[190px] rounded-[27.5px] border-[1px] border-[#D1D5DB] placeholder:text-[#9CA3AF] placeholder:font-family-[Work Sans] placeholder:font-weight-400 placeholder:text-[16px] placeholder:line-height-100%" type="text" placeholder="Email pro"></div>
                 <div><button class="w-[172px] h-[55px] t-[542px] l-[475px] rounded-[27.5px] bg-[#FA4A4D] font-family-[Work Sans] font-weight-600 text-[18px] line-height-100% text-[#FFFFFF]">Inscription</button></div>
             </div>
         </div>
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px] mt-15">
+        <div class="hero-image w-[596px] h-[572px] t-[119px] l-[821px] mt-15">
             <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="first_pic" alt="dash">
         </div>
     </div>
@@ -71,14 +71,63 @@ import icon_three from '../../../assest/image/ima_tax.webp'
 </template>
 
 <style scoped>
-
 button {
     cursor: pointer;
-
 }
 
 input:focus {
     outline: none;
 }
 
+@media (max-width: 1410px) {
+    .page-hero {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 1.5rem;
+    }
+
+    .hero-copy,
+    .hero-image {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        padding-top: 0 !important;
+        text-align: center;
+    }
+
+    .title-block,
+    .subtitle-block {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        margin-bottom: 1rem;
+    }
+
+    .hero-copy p {
+        font-size: clamp(28px, 3vw, 40px);
+        line-height: 1.1;
+    }
+
+    .subtitle-block p {
+        font-size: clamp(18px, 2vw, 24px);
+    }
+
+    .hero-form {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image img {
+        width: min(100%, 600px);
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .feature-grid {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
 </style>

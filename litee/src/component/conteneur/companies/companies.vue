@@ -12,29 +12,29 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
 </script>
 
 <template>
-    <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 mb-15 pt-10 gap-10">
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-20">
+    <div class="companies-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 mb-15 pt-10 gap-10">
+        <div class="hero-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-20">
             <div class="">
-                <div class="w-[675px] h-[143px] t-[211px] l-[190px] mb-15">
+                <div class="title-block w-[675px] h-[143px] t-[211px] l-[190px] mb-15">
                     <p class="font-family-[Work Sans] font-[700] text-[40px] line-height-100% text-[#3E3D53]">
                         Cartes de paiements intelligentes<br>
                         pour vos transactions partout<br>
                         dans le monde
                     </p>
                 </div>
-                <div class="w-[610px] h-[85px] t-[382px] l-[190px] mb-10">
+                <div class="subtitle-block w-[610px] h-[85px] t-[382px] l-[190px] mb-10">
                     <p class="font-family-[Work Sans] font-[300] text-[24px] line-height-100% text-[#3E3D53]">
                         Plus de flexibilite et transparance pour vous<br>
                         permettre de reprendre le controle de vos depenses
                     </p>
                 </div>
             </div>
-            <div class="flex gap-5">
+            <div class="flex gap-5 hero-form">
                 <div><input class="pl-5 w-[275px] h-[55px] t-[542px] l-[190px] rounded-[27.5px] border-[1px] border-[#D1D5DB] placeholder:text-[#9CA3AF] placeholder:font-family-[Work Sans] placeholder:font-weight-400 placeholder:text-[16px] placeholder:line-height-100%" type="text" placeholder="Email"></div>
                 <div><button class="w-[172px] h-[55px] t-[542px] l-[475px] rounded-[27.5px] bg-[#FA4A4D] font-family-[Work Sans] font-weight-600 text-[18px] line-height-100% text-[#FFFFFF]">Demande bêta</button></div>
             </div>
         </div>
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px]">
+        <div class="hero-image w-[596px] h-[572px] t-[119px] l-[821px]">
             <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="dash_litee" alt="dash">
         </div>
     </div>
@@ -72,19 +72,19 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
     </div>
     <card />
     <!-- Foot -->
-     <div class="flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
-        <div class="w-[298px] h-[508.35px] t-[2265px] l-[259px] mr-25">
+     <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
+        <div class="feature-image-wrap w-[298px] h-[508.35px] t-[2265px] l-[259px] mr-25">
             <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="companies_2" alt="dash">
         </div>
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-50">
-            <div class="">
-                <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
+        <div class="feature-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-50">
+            <div class="text-block">
+                <div class="feature-title w-[675px] h-[143px] t-[211px] l-[190px]">
                     <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
                         Rechargement par mobile<br>
                         money et compte bancaire<br>
                     </p>
                 </div>
-                <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
+                <div class="feature-text w-[610px] h-[85px] t-[382px] l-[190px]">
                     <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#3E3D53]">
                         Nous vous offrons la possibilites d'utiliser<br>
                         votre compte mobile money disponibles<br>
@@ -101,15 +101,15 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
             </div>
         </div>
     </div>
-         <div class="flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15">
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-5">
-            <div class="">
-                <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
+         <div class="feature-pair flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15">
+        <div class="feature-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-5">
+            <div class="text-block">
+                <div class="feature-title w-[675px] h-[143px] t-[211px] l-[190px]">
                     <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
                         Aperçu des dépenses en<br>temps réel<br>
                     </p>
                 </div>
-                <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
+                <div class="feature-text w-[610px] h-[85px] t-[382px] l-[190px]">
                     <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[100%] text-[#3E3D53]">
                         Nous gardons une traçabilité de vos<br>
                         transactions et vous savez où va votre argent.<br>
@@ -121,23 +121,23 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                 </div>
             </div>
         </div>
-        <div class="">
+        <div class="feature-image-wrap">
             <img class="w-[400px] h-[470px] t-[119px] l-[821px]" :src="companies_4" alt="dash">
         </div>
     </div>
-     <div class="flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15 pl-60">
-        <div class=" items-center justify-center">
+     <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15 pl-60">
+        <div class="feature-image-wrap items-center justify-center">
             <img class="" :src="companies_3" alt="dash">
         </div>
-        <div class="w-[596px] h-[572px] t-[119px] l-[821px] pt-45 items-center justify-center">
-            <div class="">
-                <div class="w-[675px] h-[143px] t-[211px] l-[190px]">
+        <div class="feature-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-45 items-center justify-center">
+            <div class="text-block">
+                <div class="feature-title w-[675px] h-[143px] t-[211px] l-[190px]">
                     <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
                         Transfert d'argent de<br>
                         carte a carte<br>
                     </p>
                 </div>
-                <div class="w-[610px] h-[85px] t-[382px] l-[190px]">
+                <div class="feature-text w-[610px] h-[85px] t-[382px] l-[190px]">
                     <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[100%] text-[#3E3D53]">
                         Plue aucune frontiere pour envoyer de<br>
                         l'argent et a moindre cout. Recharger votre<br>
@@ -158,7 +158,6 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
 </template>
 
 <style scoped>
-
 button {
     cursor: pointer;
 }
@@ -167,4 +166,97 @@ input:focus {
     outline: none;
 }
 
+@media (max-width: 1410px) {
+    .companies-hero {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 1.5rem;
+    }
+
+    .hero-copy,
+    .hero-image {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        padding-top: 0 !important;
+        text-align: center;
+    }
+
+    .title-block,
+    .subtitle-block {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        margin-bottom: 1rem;
+    }
+
+    .hero-copy p {
+        font-size: clamp(28px, 3vw, 40px);
+        line-height: 1.1;
+    }
+
+    .subtitle-block p {
+        font-size: clamp(18px, 2vw, 24px);
+    }
+
+    .hero-form {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image img {
+        width: min(100%, 600px);
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .feature-pair {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        gap: 1.5rem !important;
+    }
+
+    .feature-pair-reverse {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .feature-image-wrap,
+    .feature-copy,
+    .text-block,
+    .feature-title,
+    .feature-text {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+
+    .feature-image-wrap img {
+        display: block;
+        width: min(100%, 420px) !important;
+        height: auto !important;
+        margin: 0 auto;
+    }
+
+    .feature-title p,
+    .feature-text p,
+    .feature-copy p {
+        font-size: clamp(18px, 2vw, 30px) !important;
+        line-height: 1.3 !important;
+        white-space: normal !important;
+    }
+
+    .feature-copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 </style>
