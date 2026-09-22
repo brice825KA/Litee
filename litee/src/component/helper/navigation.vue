@@ -11,8 +11,8 @@ import logo from '../../assest/image/icon/ic_logo_litee_with_litee.svg'
                 <li class=""><router-link to="/">Particuliers</router-link></li>
                 <li class=""><router-link to="/companies">Entreprises</router-link></li>
                 <li class=""><router-link to="/prices">Tarifs</router-link></li>
-                <li class=""><router-link to="/navbar_reponsive">NavBar</router-link></li>
-                <button class="bg-white border border-red-500 border-2 text-red-500 font-work font-sans text-[18px] font-weight-500 p-2 pl-6 pr-6 rounded-full ml-10"><router-link to="/login">Connexion</router-link></button>
+                <!--li class=""><router-link to="/navbar_reponsive">NavBar</router-link></li-->
+                <button class="bg-white border-red-500 border-2 text-red-500 font-work font-sans text-[18px] font-weight-500 p-2 pl-6 pr-6 rounded-full ml-10"><router-link to="/login">Connexion</router-link></button>
             </ul>
         </div>
     </nav>
