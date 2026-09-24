@@ -6,19 +6,19 @@ import bande_4 from '../../assest/image/icon/ic_bande_4.svg'
 import bande_5 from '../../assest/image/icon/ic_bande_5.svg'
 const items = [
     bande_1,
-    bande_2,
+    //bande_2,
     bande_3,
     bande_4,
     bande_5,
 
     bande_1,
-    bande_2,
+    //bande_2,
     bande_3,
     bande_4,
     bande_5,
 
     bande_1,
-    bande_2,
+    //bande_2,
     bande_3,
     bande_4,
     bande_5,

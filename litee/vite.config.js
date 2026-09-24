@@ -4,27 +4,29 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import ui from '@nuxt/ui/vite'
-import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [
     vue(),
-    vueDevTools(),
-    tailwindcss(),
+    ...(mode === 'development' && process.env.VITE_ENABLE_DEVTOOLS === 'true'
+      ? [vueDevTools()]
+      : []),
     ui({
       ui: {
         colors: {
           primary: 'green',
           neutral: 'slate'
+        },
+        icon: {
+          mode: 'svg',
+          clientBundle: {
+            scan: true
+          }
         }
       },
-      pageCard: {
-        slots: {
-          root: 'rounded-xl',
-        }
-       }
-    })
+      prefix: 'U'
+    }),
   ],
   resolve: {
     alias: {
@@ -35,4 +37,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ['vue', 'vue-router']
   }
-})
+}))
