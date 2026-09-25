@@ -22,7 +22,7 @@ const closeMenu = () => {
 <template>
   <div class="nav-wrapper">
     <nav id="navbar" class="font-calibri">
-      <div id="navdiv" class="flex items-center justify-center p-4 custom-space gap-190">
+      <div id="navdiv" class="flex items-center justify-center p-5 custom-space gap-190">
         <div id="logo" class="logo-wrap">
           <router-link to="/companies"><img :src="logo" alt="logo" class="scale-180"/></router-link>
         </div>

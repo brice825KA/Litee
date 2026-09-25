@@ -8,8 +8,8 @@ import icon_three from '../../../assest/image/ima_tax.webp'
 </script>
 
 <template>
-    <div class="page-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15">
-        <div class="hero-copy w-149 h-143 t-[119px] l-[821px] pt-20">
+    <div class="page-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 pt-20">
+        <div class="hero-copy w-149 h-143 l-[821px]">
             <div class="">
                 <div class="title-block w-168.75 h-35.75 t-[211px] l-[190px] mb-15">
                     <p class="font-family-[Work Sans] font-bold text-[40px] line-height-100% text-[#3E3D53]">
@@ -26,11 +26,11 @@ import icon_three from '../../../assest/image/ima_tax.webp'
                 </div>
             </div>
             <div class="hero-form flex gap-5">
-                <div><input id="particular" class="pl-5 w-68.75 h-13.75 t-[542px] l-[190px] rounded-[27.5px] border border-[#D1D5DB] placeholder:text-[#9CA3AF] placeholder:font-family-[Work Sans] placeholder:font-weight-400 placeholder:text-[16px] placeholder:line-height-100%" type="text" placeholder="Email pro"></div>
+                <div><input id="particular" class="pl-5 pr-5 w-68.75 h-13.75 t-[542px] l-[190px] rounded-[27.5px] border border-[#D1D5DB] placeholder:text-[#9CA3AF] placeholder:font-family-[Work Sans] placeholder:font-weight-400 placeholder:text-[16px] placeholder:line-height-100%" type="text" placeholder="Email pro"></div>
                 <div><button class="w-43 h-13.75 t-[542px] l-[475px] rounded-[27.5px] bg-[#FA4A4D] font-family-[Work Sans] font-weight-600 text-[18px] line-height-100% text-[#FFFFFF]">Inscription</button></div>
             </div>
         </div>
-        <div class="hero-image w-149 h-143 t-[119px] l-[821px] mt-50">
+        <div class="hero-image w-149 h-143 t-[119px] l-[821px]">
             <img class="w-260 t-[119px] l-[821px]" :src="first_pic" alt="dash">
         </div>
     </div>

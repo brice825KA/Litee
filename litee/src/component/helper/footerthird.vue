@@ -34,8 +34,8 @@ import linkedin from '../../assest/image/img_in.webp'
 
 <style scoped>
 img {
-    width: 25px;
-    height: 25px;
+    width: 42px;
+    height: 42px;
 }
 
 span p {

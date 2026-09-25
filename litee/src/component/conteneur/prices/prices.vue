@@ -5,7 +5,7 @@ import factory from '../../../assest/image/img_factory_tarifs.webp'
 </script>
 
 <template>
-    <div class="pricing-header space-y-5 items-center justify-center bg-[#F7FAFB00] pl-70 pr-15">
+    <div class="pricing-header space-y-5 items-center justify-center bg-[#F7FAFB00] pl-70 pr-15 pt-20">
         <div class="">
             <p class="font-family-[Work Sans] font-semibold text-[36px] leading-[100%] text-[#000000]">Nos tarifs</p>
         </div>
