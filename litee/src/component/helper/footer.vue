@@ -12,7 +12,7 @@ const carouselItems = [1, 2, 3]
       v-slot="{ item }"
       loop 
       dots
-      :autoplay="{ delay: 2000 }" 
+      :autoplay="{ delay: 8000 }" 
       :items="carouselItems" 
       :ui="{
         item: 'basis-full',
