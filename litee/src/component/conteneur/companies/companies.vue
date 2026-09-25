@@ -13,35 +13,35 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
 
 <template>
     <div class="companies-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 mb-15 pt-10 gap-10">
-        <div class="hero-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-20">
+        <div class="hero-copy w-149 h-143 t-[119px] l-[821px] pt-20">
             <div class="">
-                <div class="title-block w-[675px] h-[143px] t-[211px] l-[190px] mb-15">
-                    <p class="font-family-[Work Sans] font-[700] text-[40px] line-height-100% text-[#3E3D53]">
+                <div class="title-block w-168.75 h-35.75 t-[211px] l-[190px] mb-15">
+                    <p class="font-family-[Work Sans] font-bold text-[40px] line-height-100% text-[#3E3D53]">
                         Cartes de paiements intelligentes<br>
                         pour vos transactions partout<br>
                         dans le monde
                     </p>
                 </div>
-                <div class="subtitle-block w-[610px] h-[85px] t-[382px] l-[190px] mb-10">
-                    <p class="font-family-[Work Sans] font-[300] text-[24px] line-height-100% text-[#3E3D53]">
+                <div class="subtitle-block w-152.5 h-21.25 t-[382px] l-[190px] mb-10">
+                    <p class="font-family-[Work Sans] font-light text-[24px] line-height-100% text-[#3E3D53]">
                         Plus de flexibilite et transparance pour vous<br>
                         permettre de reprendre le controle de vos depenses
                     </p>
                 </div>
             </div>
             <div class="flex gap-5 hero-form">
-                <div><input class="pl-5 w-[275px] h-[55px] t-[542px] l-[190px] rounded-[27.5px] border-[1px] border-[#D1D5DB] placeholder:text-[#9CA3AF] placeholder:font-family-[Work Sans] placeholder:font-weight-400 placeholder:text-[16px] placeholder:line-height-100%" type="text" placeholder="Email"></div>
-                <div><button class="w-[172px] h-[55px] t-[542px] l-[475px] rounded-[27.5px] bg-[#FA4A4D] font-family-[Work Sans] font-weight-600 text-[18px] line-height-100% text-[#FFFFFF]">Demande bêta</button></div>
+                <div><input class="pl-5 w-68.75 h-13.75 t-[542px] l-[190px] rounded-[27.5px] border border-[#D1D5DB] placeholder:text-[#9CA3AF] placeholder:font-family-[Work Sans] placeholder:font-weight-400 placeholder:text-[16px] placeholder:line-height-100%" type="text" placeholder="Email"></div>
+                <div><button class="w-43 h-13.75 t-[542px] l-[475px] rounded-[27.5px] bg-[#FA4A4D] font-family-[Work Sans] font-weight-600 text-[18px] line-height-100% text-[#FFFFFF]">Demande bêta</button></div>
             </div>
         </div>
-        <div class="hero-image w-[596px] h-[572px] t-[119px] l-[821px]">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="dash_litee" alt="dash">
+        <div class="hero-image w-149 h-143 t-[119px] l-[821px]">
+            <img class="w-149 h-143 t-[119px] l-[821px]" :src="dash_litee" alt="dash">
         </div>
     </div>
     <!--Ban-->
      <bande />
     <!-- Simple Sentences -->
-    <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 border-b-[1px] border-[#F2F5F7] py-10 border-b-[1px] border-[#F2F5F7]">
+    <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 border-b py-10 border-[#F2F5F7]">
         <p class="font-family-[Work Sans] font-weight-700 text-[36px] font-bold line-height-100% text-[#3E3D53] text-center">
             Comment ca marche
         </p>
@@ -51,41 +51,41 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
         <div id="card1" class="company-step-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-8"><img :src="icon_one" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Creer votre compte</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Remplissez le formulaire<br>avec vos informations<br>de base pour<br>commencer. Votre<br>compte Litee est pret<br>en quelques minutes.</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-medium text-[24px] leading-[100%]"><p>Creer votre compte</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-light text-[24px] leading-[100%]"><p>Remplissez le formulaire<br>avec vos informations<br>de base pour<br>commencer. Votre<br>compte Litee est pret<br>en quelques minutes.</p></div>
             </div>
         </div>
         <div id="card1" class="company-step-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_two" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Generez votre carte</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>En un clic, generez une carte<br>virtuelle acceptee partout<br>dans le monde. Nous vous<br>delivrons les cartes physiques<br>au besoin dans les 48h.</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-meduim text-[24px] leading-[100%]"><p>Generez votre carte</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-light text-[24px] leading-[100%]"><p>En un clic, generez une carte<br>virtuelle acceptee partout<br>dans le monde. Nous vous<br>delivrons les cartes physiques<br>au besoin dans les 48h.</p></div>
             </div>
         </div>
         <div id="card1" class="company-step-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_three" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Alimenter votre carte</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Choissisez le moyen de<br>rechargement qui vous<br>convient et recharger votre<br>carte pour commencer par<br>effectuer des paiements</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-medium text-[24px] leading-[100%]"><p>Alimenter votre carte</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-light text-[24px] leading-[100%]"><p>Choissisez le moyen de<br>rechargement qui vous<br>convient et recharger votre<br>carte pour commencer par<br>effectuer des paiements</p></div>
             </div>
         </div>
     </div>
     <card />
     <!-- Foot -->
      <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
-        <div class="feature-image-wrap w-[298px] h-[508.35px] t-[2265px] l-[259px] mr-25">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="companies_2" alt="dash">
+        <div class="feature-image-wrap w-74.5 h-[508.35px] t-[2265px] l-[259px] mr-25">
+            <img class="w-149 h-143 t-[119px] l-[821px]" :src="companies_2" alt="dash">
         </div>
-        <div class="feature-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-50">
+        <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 ml-50">
             <div class="text-block">
-                <div class="feature-title w-[675px] h-[143px] t-[211px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
+                <div class="feature-title w-168.75 h-35.75 t-[211px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Rechargement par mobile<br>
                         money et compte bancaire<br>
                     </p>
                 </div>
-                <div class="feature-text w-[610px] h-[85px] t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[152%] text-[#3E3D53]">
+                <div class="feature-text w-152.5 h-21.25 t-[382px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-light text-[24px] leading-[152%] text-[#3E3D53]">
                         Nous vous offrons la possibilites d'utiliser<br>
                         votre compte mobile money disponibles<br>
                         dans votre pays ou encore votre compte<br>
@@ -94,23 +94,23 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                 </div>
             </div>
             <div class="flex gap-5 mt-20">
-                <div class="w-[54px] h-[5px] t-[2645px] l-[758px] bg-[#FA4A4D] mt-3"></div>
+                <div class="w-13.5 h-1.25 t-[2645px] l-[758px] bg-[#FA4A4D] mt-3"></div>
                 <div class="">
-                    <p class="font-family-[Work Sans] font-[500] text-[18px] leading-[152%] text-[#3E3D53]">Voir les banques et GSM couverts</p>
+                    <p class="font-family-[Work Sans] font-meduim text-[18px] leading-[152%] text-[#3E3D53]">Voir les banques et GSM couverts</p>
                 </div>
             </div>
         </div>
     </div>
          <div class="feature-pair flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15">
-        <div class="feature-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-45 ml-5">
+        <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 ml-5">
             <div class="text-block">
-                <div class="feature-title w-[675px] h-[143px] t-[211px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
+                <div class="feature-title w-168.75 h-35.75 t-[211px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Aperçu des dépenses en<br>temps réel<br>
                     </p>
                 </div>
-                <div class="feature-text w-[610px] h-[85px] t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[100%] text-[#3E3D53]">
+                <div class="feature-text w-152.5 h-21.25 t-[382px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-light text-[24px] leading-[100%] text-[#3E3D53]">
                         Nous gardons une traçabilité de vos<br>
                         transactions et vous savez où va votre argent.<br>
                         Vous recevez des notifications en temps réel<br>
@@ -122,23 +122,23 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
             </div>
         </div>
         <div class="feature-image-wrap">
-            <img class="w-[400px] h-[470px] t-[119px] l-[821px]" :src="companies_4" alt="dash">
+            <img class="w-100 h-117.5 t-[119px] l-[821px]" :src="companies_3" alt="dash">
         </div>
     </div>
      <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15 pl-60">
         <div class="feature-image-wrap items-center justify-center">
-            <img class="" :src="companies_3" alt="dash">
+            <img class="w-100 h-117.5 t-[119px] l-[821px]" :src="companies_4" alt="dash">
         </div>
-        <div class="feature-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-45 items-center justify-center">
+        <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 items-center justify-center">
             <div class="text-block">
-                <div class="feature-title w-[675px] h-[143px] t-[211px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-[700] text-[30px] leading-[100%] text-[#3E3D53]">
+                <div class="feature-title w-168.75 h-37.75 t-[211px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Transfert d'argent de<br>
-                        carte a carte<br>
+                        carte a carte
                     </p>
                 </div>
-                <div class="feature-text w-[610px] h-[85px] t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-[300] text-[24px] leading-[100%] text-[#3E3D53]">
+                <div class="feature-text w-152.5 h-21.25 t-[382px] l-[190px]">
+                    <p class="font-family-[Work Sans] font-light text-[24px] leading-[100%] text-[#3E3D53]">
                         Plue aucune frontiere pour envoyer de<br>
                         l'argent et a moindre cout. Recharger votre<br>
                         cartes et faites balader les fonds partout dans<br>
@@ -147,9 +147,9 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                 </div>
             </div>
             <div class="flex gap-5 mt-10">
-                <div class="w-[54px] h-[5px] t-[2645px] l-[758px] bg-[#FA4A4D] mt-3"></div>
+                <div class="w-13.5 h-1.25 t-[2645px] l-[758px] bg-[#FA4A4D] mt-3"></div>
                 <div class="">
-                    <p class="font-family-[Work Sans] font-[500] text-[18px] leading-[152%] text-[#3E3D53]">Voir les tarifs</p>
+                    <p class="font-family-[Work Sans] font-medium text-[18px] leading-[152%] text-[#3E3D53]">Voir les tarifs</p>
                 </div>
             </div>
         </div>
