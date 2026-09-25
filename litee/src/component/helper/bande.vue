@@ -31,7 +31,7 @@ const items = [
         v-slot="{ item }"
         loop
         dots
-        :auto-scroll="{speed: 2, stopOnMouseEnter: false, stopOnInteraction: false }"
+        :auto-scroll="{speed: 0.5, stopOnMouseEnter: false, stopOnInteraction: false }"
         :items="items"
         :ui="{ item: 'basis-1/8' }"
         class="items-center justify-center"

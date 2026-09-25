@@ -24,7 +24,7 @@ const closeMenu = () => {
     <nav id="navbar" class="font-calibri">
       <div id="navdiv" class="flex items-center justify-between p-4 custom-space">
         <div id="logo" class="logo-wrap">
-          <img :src="logo" alt="logo" />
+          <router-link to="/companies"><img :src="logo" alt="logo" /></router-link>
         </div>
 
         <button
