@@ -74,7 +74,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
     <!-- Foot -->
      <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
         <div class="feature-image-wrap w-74.5 h-[508.35px] t-[2265px] l-[259px] mr-25">
-            <img class="w-149 h-143 t-[119px] l-[821px]" :src="companies_2" alt="dash">
+            <img class="w-300 h-143 t-[119px] l-[821px]" :src="companies_2" alt="dash">
         </div>
         <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 ml-50">
             <div class="text-block">
@@ -110,7 +110,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                     </p>
                 </div>
                 <div class="feature-text w-152.5 h-21.25 t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-light text-[24px] leading-[100%] text-[#3E3D53]">
+                    <p class="font-family-[Work Sans] font-light text-[24px] leading-[152%] text-[#3E3D53]">
                         Nous gardons une traçabilité de vos<br>
                         transactions et vous savez où va votre argent.<br>
                         Vous recevez des notifications en temps réel<br>
@@ -138,7 +138,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                     </p>
                 </div>
                 <div class="feature-text w-152.5 h-21.25 t-[382px] l-[190px]">
-                    <p class="font-family-[Work Sans] font-light text-[24px] leading-[100%] text-[#3E3D53]">
+                    <p class="font-family-[Work Sans] font-light text-[24px] leading-[152%] text-[#3E3D53]">
                         Plue aucune frontiere pour envoyer de<br>
                         l'argent et a moindre cout. Recharger votre<br>
                         cartes et faites balader les fonds partout dans<br>
@@ -146,7 +146,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                     </p>
                 </div>
             </div>
-            <div class="flex gap-5 mt-10">
+            <div class="flex gap-5 mt-20">
                 <div class="w-13.5 h-1.25 t-[2645px] l-[758px] bg-[#FA4A4D] mt-3"></div>
                 <div class="">
                     <p class="font-family-[Work Sans] font-medium text-[18px] leading-[152%] text-[#3E3D53]">Voir les tarifs</p>

@@ -9,11 +9,11 @@ import linkedin from '../../assest/image/img_in.webp'
             <div class="footer-grid py-10">
                 <div id="firstcol" class="footer-col">
                     <div class="pb-2"><span><p>2018, LITEE</p></span></div>
-                    <p>A, propos<br>Carrière</p>
+                    <p class="">A, propos<br>Carrière</p>
                 </div>
                 <div id="secondcol" class="footer-col">
                     <div class="pb-2"><span><p>Nous contacter</p></span></div>
-                    <p>Confidentialité<br>Cookies<br>Sécurité<br>Conditions d'utilisation</p>
+                    <p class="">Confidentialité<br>Cookies<br>Sécurité<br>Conditions d'utilisation</p>
                 </div>
                 <div id="thirdcol" class="footer-col">
                     <div class="pb-2"><span><p>Nous contacter</p></span></div>
@@ -34,14 +34,14 @@ import linkedin from '../../assest/image/img_in.webp'
 
 <style scoped>
 img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 span p {
     font-weight: 500;
     font-size: 20px;
-    line-height: 100%;
+    line-height: 152%;
     font-family: 'Work Sans', sans-serif;
     color: #FFFFFF;
 }
@@ -49,7 +49,7 @@ span p {
 p {
     font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
+    line-height: 152%;
     font-family: 'Work Sans', sans-serif;
     color: #FFFFFF80;
 }

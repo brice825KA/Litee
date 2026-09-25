@@ -9,35 +9,35 @@ import icon_three from '../../../assest/image/ima_tax.webp'
 
 <template>
     <div class="page-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15">
-        <div class="hero-copy w-[596px] h-[572px] t-[119px] l-[821px] pt-20">
+        <div class="hero-copy w-149 h-143 t-[119px] l-[821px] pt-20">
             <div class="">
-                <div class="title-block w-[675px] h-[143px] t-[211px] l-[190px] mb-15">
+                <div class="title-block w-168.75 h-35.75 t-[211px] l-[190px] mb-15">
                     <p class="font-family-[Work Sans] font-bold text-[40px] line-height-100% text-[#3E3D53]">
                         Organiser les paiements de<br>
                         votre equipe au meme<br>
                         endroit
                     </p>
                 </div>
-                <div class="subtitle-block w-[610px] h-[85px] t-[382px] l-[190px] mb-10">
-                    <p class="font-family-[Work Sans] font-[300] text-[24px] line-height-100% text-[#3E3D53]">
+                <div class="subtitle-block w-152.5 h-21.25 t-[382px] l-[190px] mb-10">
+                    <p class="font-family-[Work Sans] font-light text-2xl line-height-100% text-[#3E3D53]">
                         Donnez plus d'autonomie a vos collaborateurs<br>
                         et Ameliorez votre productivite
                     </p>
                 </div>
             </div>
             <div class="hero-form flex gap-5">
-                <div><input id="particular" class="pl-5 w-[275px] h-[55px] t-[542px] l-[190px] rounded-[27.5px] border-[1px] border-[#D1D5DB] placeholder:text-[#9CA3AF] placeholder:font-family-[Work Sans] placeholder:font-weight-400 placeholder:text-[16px] placeholder:line-height-100%" type="text" placeholder="Email pro"></div>
-                <div><button class="w-[172px] h-[55px] t-[542px] l-[475px] rounded-[27.5px] bg-[#FA4A4D] font-family-[Work Sans] font-weight-600 text-[18px] line-height-100% text-[#FFFFFF]">Inscription</button></div>
+                <div><input id="particular" class="pl-5 w-68.75 h-13.75 t-[542px] l-[190px] rounded-[27.5px] border border-[#D1D5DB] placeholder:text-[#9CA3AF] placeholder:font-family-[Work Sans] placeholder:font-weight-400 placeholder:text-[16px] placeholder:line-height-100%" type="text" placeholder="Email pro"></div>
+                <div><button class="w-43 h-13.75 t-[542px] l-[475px] rounded-[27.5px] bg-[#FA4A4D] font-family-[Work Sans] font-weight-600 text-[18px] line-height-100% text-[#FFFFFF]">Inscription</button></div>
             </div>
         </div>
-        <div class="hero-image w-[596px] h-[572px] t-[119px] l-[821px] mt-15">
-            <img class="w-[596px] h-[572px] t-[119px] l-[821px]" :src="first_pic" alt="dash">
+        <div class="hero-image w-149 h-143 t-[119px] l-[821px] mt-50">
+            <img class="w-260 t-[119px] l-[821px]" :src="first_pic" alt="dash">
         </div>
     </div>
     <!-- Bande -->
      <bande/>
     <!-- Simple Sentences -->
-    <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 border-b-[1px] border-[#F2F5F7] py-10 border-b-[1px] border-[#F2F5F7]">
+    <div class="flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 border-b border-[#F2F5F7] py-10">
         <p class="font-family-[Work Sans] font-weight-700 text-[36px] font-bold line-height-100% text-[#3E3D53] text-center">
             En plus des fonctionnalités du<br>
             compte particulier...
@@ -48,22 +48,22 @@ import icon_three from '../../../assest/image/ima_tax.webp'
         <div id="card1" class="feature-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_one" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Compte Entreprise</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Creer un compte entreprise<br>et inviter les membres de<br>votre equipe</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-medium text-[24px] leading-[100%]"><p>Compte Entreprise</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-light text-[24px] leading-[100%]"><p>Creer un compte entreprise<br>et inviter les membres de<br>votre equipe</p></div>
             </div>
         </div>
         <div id="card1" class="feature-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_two" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Carte plafonnée</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Decidez qui peut depenser<br>combien et qui doit valider<br>quelles demandes d'achat.</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-meduim text-[24px] leading-[100%]"><p>Carte plafonnée</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-light text-[24px] leading-[100%]"><p>Decidez qui peut depenser<br>combien et qui doit valider<br>quelles demandes d'achat.</p></div>
             </div>
         </div>
         <div id="card1" class="feature-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_three" alt=""></div>
             <div class="flex-wrap justify-center items-center text-center space-y-2">
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[500] text-[24px] leading-[100%]"><p>Suivi centralisé</p></div>
-                <div class="text-[#3E3D53] font-family-[Work Sans] font-[300] text-[24px] leading-[100%]"><p>Visualisez en temps reel<br>l'ensemble des dépenses de<br>votre entreprise depuis le<br>tableau de bord Litee</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-medium text-[24px] leading-[100%]"><p>Suivi centralisé</p></div>
+                <div class="text-[#3E3D53] font-family-[Work Sans] font-light text-[24px] leading-[100%]"><p>Visualisez en temps reel<br>l'ensemble des dépenses de<br>votre entreprise depuis le<br>tableau de bord Litee</p></div>
             </div>
         </div>
     </div>
