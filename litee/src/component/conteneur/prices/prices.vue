@@ -5,7 +5,7 @@ import factory from '../../../assest/image/img_factory_tarifs.webp'
 </script>
 
 <template>
-    <div class="pricing-header space-y-5 items-center justify-center bg-[#F7FAFB00] pl-70 pr-15 pt-20">
+    <div class="pricing-header space-y-10 items-center justify-center bg-[#F7FAFB00] pl-70 pr-15 pt-20">
         <div class="">
             <p class="font-family-[Work Sans] font-semibold text-[36px] leading-[100%] text-[#000000]">Nos tarifs</p>
         </div>
@@ -17,7 +17,7 @@ import factory from '../../../assest/image/img_factory_tarifs.webp'
         <div class="h-px w-277.25  bg-[#F2F5F7]"></div>
     </div>
     <!--Middle two part-->
-    <div class="pricing-cards flex justify-center items-center gap-80 py-5">
+    <div class="pricing-cards flex justify-center items-center gap-80 py-5 pb-25">
         <div class="pricing-card-block">
             <div class="font-family-[Work Sans] font-thin text-[36px] leading-[235%] text-[#000000]"><p>Particuliers</p></div>
             <div class="w-128.5 h-203.25 t-[541px] l-[195px] shadow-md pb-10">

@@ -78,7 +78,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
         </div>
         <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 ml-50">
             <div class="text-block">
-                <div class="feature-title w-168.75 h-35.75 t-[211px] l-[190px]">
+                <div class="feature-title w-168.75 h-25 t-[211px] l-[190px]">
                     <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Rechargement par mobile<br>
                         money et compte bancaire
@@ -104,7 +104,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
          <div class="feature-pair flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15">
         <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 ml-5">
             <div class="text-block">
-                <div class="feature-title w-168.75 h-35.75 t-[211px] l-[190px]">
+                <div class="feature-title w-168.75 h-25 t-[211px] l-[190px]">
                     <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Aperçu des dépenses en<br>temps réel<br>
                     </p>
@@ -131,7 +131,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
         </div>
         <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 items-center justify-center">
             <div class="text-block">
-                <div class="feature-title w-168.75 h-37.75 t-[211px] l-[190px]">
+                <div class="feature-title w-168.75 h-25 t-[211px] l-[190px]">
                     <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Transfert d'argent de<br>
                         carte a carte
