@@ -57,7 +57,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
         </div>
         <div id="card1" class="company-step-card justify-center items-center py-5">
             <div class="flex items-center justify-center py-5"><img :src="icon_two" alt=""></div>
-            <div class="flex-wrap justify-center items-center text-center space-y-2">
+            <div class="flex-wrap justify-center items-center text-center space-y-5">
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-meduim text-[24px] leading-[100%]"><p>Generez votre carte</p></div>
                 <div class="text-[#3E3D53] font-family-[Work Sans] font-light text-[24px] leading-[100%]"><p>En un clic, generez une carte<br>virtuelle acceptee partout<br>dans le monde. Nous vous<br>delivrons les cartes physiques<br>au besoin dans les 48h.</p></div>
             </div>
@@ -73,7 +73,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
     <card />
     <!-- Foot -->
      <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
-        <div class="feature-image-wrap w-74.5 h-[508.35px] t-[2265px] l-[259px] mr-25">
+        <div class="feature-image-wrap w-74.5 h-[508.35px] l-[259px] mr-25">
             <img class="w-300 h-143 t-[119px] l-[821px]" :src="companies_2" alt="dash">
         </div>
         <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 ml-50">
@@ -81,10 +81,10 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                 <div class="feature-title w-168.75 h-35.75 t-[211px] l-[190px]">
                     <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Rechargement par mobile<br>
-                        money et compte bancaire<br>
+                        money et compte bancaire
                     </p>
                 </div>
-                <div class="feature-text w-152.5 h-21.25 t-[382px] l-[190px]">
+                <div class="feature-text w-152.5 h-21.25 l-[190px]">
                     <p class="font-family-[Work Sans] font-light text-[24px] leading-[152%] text-[#3E3D53]">
                         Nous vous offrons la possibilites d'utiliser<br>
                         votre compte mobile money disponibles<br>
