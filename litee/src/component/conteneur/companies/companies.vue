@@ -12,7 +12,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
 </script>
 
 <template>
-    <div class="companies-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 mb-15 pt-20 gap-10">
+    <div class="companies-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 mb-15 pt-20 gap-15">
         <div class="hero-copy w-149 h-143 t-[119px] l-[821px]">
             <div class="">
                 <div class="title-block w-168.75 h-35.75 t-[211px] l-[190px] mb-15">

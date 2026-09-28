@@ -8,7 +8,7 @@ import icon_three from '../../../assest/image/ima_tax.webp'
 </script>
 
 <template>
-    <div class="page-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 pt-20">
+    <div class="page-hero flex justify-center items-center bg-[#F7FAFB00] pl-30 pr-15 pt-20 gap-15">
         <div class="hero-copy w-149 h-143 l-[821px]">
             <div class="">
                 <div class="title-block w-168.75 h-35.75 t-[211px] l-[190px] mb-15">
