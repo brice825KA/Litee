@@ -8,11 +8,11 @@ import navbar from '../component/helper/navbar_reponsive.vue'
 const routes = [
   {
     path: '/',
-    component: particular
+    component: companies
   },
   {
-    path: '/companies',
-    component: companies
+    path: '/particular',
+    component: particular
   },
   {
     path: '/prices',

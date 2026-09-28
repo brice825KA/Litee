@@ -5,8 +5,8 @@ import logo from '../../assest/image/icon/ic_logo_litee_with_litee.svg'
 const isMenuOpen = ref(false)
 
 const navItems = [
-  { label: 'Particuliers', to: '/' },
-  { label: 'Entreprises', to: '/companies' },
+  { label: 'Particuliers', to: '/particular' },
+  { label: 'Entreprises', to: '/' },
   { label: 'Tarifs', to: '/prices' },
 ]
 
@@ -24,7 +24,7 @@ const closeMenu = () => {
     <nav id="navbar" class="font-calibri">
       <div id="navdiv" class="flex items-center justify-center p-5 custom-space gap-165">
         <div id="logo" class="logo-wrap">
-          <router-link to="/companies"><img :src="logo" alt="logo" class="scale-180"/></router-link>
+          <router-link to="/"><img :src="logo" alt="logo" class="scale-180"/></router-link>
         </div>
 
         <button
