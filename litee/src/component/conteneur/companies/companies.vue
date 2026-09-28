@@ -72,7 +72,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
     </div>
     <card />
     <!-- Foot -->
-     <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] pl-60 gap-0 pb-15">
+     <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15">
         <div class="feature-image-wrap w-74.5 h-[508.35px] l-[259px] mr-25">
             <img class="w-300 h-143 t-[119px] l-[821px]" :src="companies_2" alt="dash">
         </div>
@@ -101,7 +101,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
             </div>
         </div>
     </div>
-         <div class="feature-pair flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15">
+         <div class="feature-pair flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15 pr-20">
         <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 ml-5">
             <div class="text-block">
                 <div class="feature-title w-168.75 h-25 t-[211px] l-[190px]">
@@ -125,7 +125,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
             <img class="w-100 h-117.5 t-[119px] l-[821px]" :src="companies_3" alt="dash">
         </div>
     </div>
-     <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15 pl-60">
+     <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15">
         <div class="feature-image-wrap items-center justify-center">
             <img class="w-100 h-117.5 t-[119px] l-[821px]" :src="companies_4" alt="dash">
         </div>
