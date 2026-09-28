@@ -101,15 +101,15 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
             </div>
         </div>
     </div>
-         <div class="feature-pair flex justify-center items-center bg-[#F7FAFB00] gap-0 pb-15 pr-20">
-        <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 ml-5">
+         <div class="feature-pair flex justify-center items-center bg-[#F7FAFB00] gap-80">
+        <div class="feature-copy">
             <div class="text-block">
-                <div class="feature-title w-168.75 h-25 t-[211px] l-[190px]">
+                <div class="feature-title pb-10">
                     <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Aperçu des dépenses en<br>temps réel<br>
                     </p>
                 </div>
-                <div class="feature-text w-152.5 h-21.25 t-[382px] l-[190px]">
+                <div class="feature-text">
                     <p class="font-family-[Work Sans] font-light text-[24px] leading-[152%] text-[#3E3D53]">
                         Nous gardons une traçabilité de vos<br>
                         transactions et vous savez où va votre argent.<br>
@@ -122,22 +122,22 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
             </div>
         </div>
         <div class="feature-image-wrap">
-            <img class="w-100 h-117.5 t-[119px] l-[821px]" :src="companies_3" alt="dash">
+            <img class="" :src="companies_3" alt="dash">
         </div>
     </div>
      <div class="feature-pair feature-pair-reverse flex justify-center items-center bg-[#F7FAFB00] gap-50 pb-15">
-        <div class="feature-image-wrap items-center justify-center">
-            <img class="w-100 h-117.5 t-[119px] l-[821px]" :src="companies_4" alt="dash">
+        <div class="feature-image-wrap w-1/4">
+            <img class="" :src="companies_4" alt="dash">
         </div>
-        <div class="feature-copy w-149 h-143 t-[119px] l-[821px] pt-45 items-center justify-center">
+        <div class="feature-copy">
             <div class="text-block">
-                <div class="feature-title w-168.75 h-25 t-[211px] l-[190px]">
+                <div class="feature-title">
                     <p class="font-family-[Work Sans] font-bold text-[30px] leading-[100%] text-[#3E3D53]">
                         Transfert d'argent de<br>
                         carte a carte
                     </p>
                 </div>
-                <div class="feature-text w-152.5 h-21.25 t-[382px] l-[190px]">
+                <div class="feature-text pt-10">
                     <p class="font-family-[Work Sans] font-light text-[24px] leading-[152%] text-[#3E3D53]">
                         Plue aucune frontiere pour envoyer de<br>
                         l'argent et a moindre cout. Recharger votre<br>
@@ -146,7 +146,7 @@ import companies_4 from '../../../assest/image/img_transfer_card_companies_5.web
                     </p>
                 </div>
             </div>
-            <div class="flex gap-5 mt-20">
+            <div class="flex gap-5 mt-10">
                 <div class="w-13.5 h-1.25 t-[2645px] l-[758px] bg-[#FA4A4D] mt-3"></div>
                 <div class="">
                     <p class="font-family-[Work Sans] font-medium text-[18px] leading-[152%] text-[#3E3D53]">Voir les tarifs</p>

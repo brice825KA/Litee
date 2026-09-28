@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <div class="newsletter-wrapper bg-[#FFFFFF] flex w-full max-w-375 mx-auto h-auto min-h-33.5 px-6 md:px-12 lg:px-16 pt-10 pb-8 mb-5 gap-8 md:gap-12 lg:gap-20 items-center justify-center">
+    <div class="newsletter-wrapper bg-[#FFFFFF] flex w-full max-w-375 mx-auto h-auto min-h-33.5 px-6 md:px-12 lg:px-16 pt-10 pb-8 mb-5 gap-8 md:gap-12 lg:gap-60 items-center justify-center">
         <div class="newsletter-title font-family-['Work Sans'] font-weight-400 text-[30px] text-[#3E3D53] leading-[1.2]">
             <p>Toutes les nouveautés<br>dans votre boîte mail</p>
         </div>
